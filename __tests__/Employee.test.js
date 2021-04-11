@@ -51,7 +51,7 @@ describe('Employee', () => {
 
     describe("getEmail", () => {
         it("Can get email via getEmail()", () => {
-            const testValue = "crystal@js.com";
+            const testValue = "test@email.com";
             const employee = new Employee("", 1, testValue);
 
             expect(employee.getEmail()).toBe(testValue);
@@ -61,7 +61,7 @@ describe('Employee', () => {
     describe("getRole", () => {
         it("getRole() should return \"Employee\"", () => {
             const testValue = "Employee";
-            const employee = new Employee("Crystal", 1, "crystal@js.com");
+            const employee = new Employee("Crystal", 1, "test@email.com");
             expect(employee.getRole()).toBe(testValue);
         });
     });
