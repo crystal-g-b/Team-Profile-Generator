@@ -26,12 +26,17 @@
   
   When the user runs `node index`, the inquirer package prompts you in the command line with a series of questions and input requirements that will populate on cards. This will serve as the basic info for each team member. The info cards will include the team members name, role, id# and so on. Once the information is entered `fs.writeFile` is used to asynchronously write data to the html file created.
 
-  See below for the final result of the Profile Generator
+  See below for the application Demo and final result of the Profile Generator
+
+  * [Profile Generator Demo](https://drive.google.com/file/d/1hLb7zsY-s1YgbFiGgnov4bjj2g3C9KS0/view?usp=sharing)
+  
   ![Final HTML](/ASSETS/finishedpage.png)
   
   ## Contribution
   
-  Contributions are welcomed. If a Developer would like to contribute to this app, they are welcome to fork this repo or create a pull request to provide fixes or other contributions to this projects.
+  The main contributor was Crystal Barnett.
+
+  Outside contributions are welcomed. If a Developer would like to contribute to this app, they are welcome to fork this repo or create a pull request to provide fixes or other contributions to this projects.
   
   ## Test-Instructions
   
