@@ -1,13 +1,13 @@
 {
   "name": "Team-Profile-Generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Object Oriented Programming: Creating a Team profile generator",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
